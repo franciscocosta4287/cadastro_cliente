@@ -93,13 +93,16 @@ WSGI_APPLICATION = 'bilanda.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': env("DB_NAME"),
-        'USER': env("DB_USER"),
-        'PASSWORD': env("DB_PASSWORD"),
-        'HOST': env("DB_HOST"),
-        'PORT': env("DB_PORT"),
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'YnXrVh0MinGQfsXo1KaF',
+        'HOST': 'containers-us-west-199.railway.app',
+        'PORT': '7974',
     }
 }
+
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
